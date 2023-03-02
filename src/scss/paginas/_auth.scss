@@ -1,0 +1,12 @@
+@use 'base/mixins' as m;
+
+.auth{
+    @include m.contenedor-sm;
+    &_heading{
+        @include m.nombre-pagina;
+    }
+}
+
+.auth_texto{
+    font-size: 2rem;
+}
